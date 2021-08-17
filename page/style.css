@@ -1,0 +1,202 @@
+/* 
+-- ORIGINAL: https://codepen.io/freeCodeCamp/full/RKRbwL --
+-- COLORS --
+background-color: #f7efdf
+text: #1e2953;
+nav-bar: #eddab6
+light-orange: #e67e22
+dark-orange: #cd6d17
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html,
+body{
+    background-color: #f7efdf;
+    color: #1e2953;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#header{
+    position: sticky;
+    top: 0;
+}
+
+#header-img{
+    width: 20%;
+    padding: 20px;
+}
+
+#nav-bar{
+    background-color: #eddab6;
+    height: 3.5rem;
+}
+
+.item{
+    float: left;
+    list-style: none;
+    width: 10rem;
+    text-align: center;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #1e2953;
+}
+
+a:hover,
+a:active{
+    text-decoration: none;
+    color: #1e2953;   
+    font-size: 1.1rem;
+}
+
+.navigation{
+    display: inline-block;
+    max-width: 1140px;
+    padding: 1.1rem 1rem 1rem 1rem;
+    float: right;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    padding: 10px;
+}
+
+#email,
+#submit{
+    margin: .8rem auto;
+    display: block;
+    height: 2rem;
+    font-family: inherit;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 20px;
+    width: auto;
+    padding: 5px 20px;
+    margin: 1rem;
+    background-color: #e67e22 ;
+    color: #eee;
+    font-size: 1rem;
+    border: 1px solid #cd6d17;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: #cd6d17;
+}
+
+#email{
+    width: 20%;
+}
+
+.container{
+    max-width: auto;
+}
+
+#features{
+    width: 85%;
+    margin: 3rem auto
+}
+
+.icon{
+    font-size: 3em;
+    color: #cd6d17;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+}
+
+.grid{
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.video-center{
+    text-align: center;
+}
+
+#pricing{
+    display: flex;
+    flex-direction: row;
+    margin: 2.5rem auto;
+    width: 70%;
+    
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid #cd6d17;
+    border-radius: 3px;
+}
+
+.level{
+    background-color: #f4e8d1;
+    width: 100%;
+    height: auto;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 15px 0;
+}
+
+li{
+    list-style: none;
+    margin-bottom: .5rem;
+}
+
+h2{
+    margin: 1rem;
+}
+
+footer{
+    background-color: #f4e8d1;
+    height: 3rem;
+    text-align: right;
+}
+
+.footer-text{
+    padding: 1rem;
+    margin-right: 2rem;
+    display: block;
+    font-size: .7rem;
+}
+
+@media (max-width: 1200px){
+    html,
+    body{
+        font-size: 15px;
+    }
+}
